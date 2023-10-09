@@ -23,7 +23,6 @@ jobs:
       - name: Collect coverage into one XML report
         run: |
           bash xccov-to-generic.sh build/Logs/Test/*.xcresult/ > generic-coverage.xml
-
         with:
           args: >
               -Dsonar.organization=mandabhaskarakiranorganization
