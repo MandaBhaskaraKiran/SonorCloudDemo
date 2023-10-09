@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1357C2582AD3FD75004F3784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1357C2572AD3FD75004F3784 /* AppDelegate.swift */; };
+		1357C25A2AD3FD75004F3784 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1357C2592AD3FD75004F3784 /* SceneDelegate.swift */; };
+		1357C25C2AD3FD75004F3784 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1357C25B2AD3FD75004F3784 /* ViewController.swift */; };
+		1357C25F2AD3FD75004F3784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1357C25D2AD3FD75004F3784 /* Main.storyboard */; };
+		1357C2612AD3FD75004F3784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1357C2602AD3FD75004F3784 /* Assets.xcassets */; };
+		1357C2642AD3FD75004F3784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1357C2622AD3FD75004F3784 /* LaunchScreen.storyboard */; };
+		1357C26F2AD3FD76004F3784 /* SonorCLoudProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1357C26E2AD3FD76004F3784 /* SonorCLoudProjectTests.swift */; };
+		1357C2792AD3FD76004F3784 /* SonorCLoudProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1357C2782AD3FD76004F3784 /* SonorCLoudProjectUITests.swift */; };
+		1357C27B2AD3FD76004F3784 /* SonorCLoudProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1357C27A2AD3FD76004F3784 /* SonorCLoudProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1357C26B2AD3FD76004F3784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1357C24C2AD3FD75004F3784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1357C2532AD3FD75004F3784;
+			remoteInfo = SonorCLoudProject;
+		};
+		1357C2752AD3FD76004F3784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1357C24C2AD3FD75004F3784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1357C2532AD3FD75004F3784;
+			remoteInfo = SonorCLoudProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1357C2542AD3FD75004F3784 /* SonorCLoudProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SonorCLoudProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1357C2572AD3FD75004F3784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1357C2592AD3FD75004F3784 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1357C25B2AD3FD75004F3784 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1357C25E2AD3FD75004F3784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1357C2602AD3FD75004F3784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1357C2632AD3FD75004F3784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1357C2652AD3FD75004F3784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1357C26A2AD3FD76004F3784 /* SonorCLoudProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonorCLoudProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1357C26E2AD3FD76004F3784 /* SonorCLoudProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonorCLoudProjectTests.swift; sourceTree = "<group>"; };
+		1357C2742AD3FD76004F3784 /* SonorCLoudProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonorCLoudProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1357C2782AD3FD76004F3784 /* SonorCLoudProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonorCLoudProjectUITests.swift; sourceTree = "<group>"; };
+		1357C27A2AD3FD76004F3784 /* SonorCLoudProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonorCLoudProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1357C2512AD3FD75004F3784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1357C2672AD3FD76004F3784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1357C2712AD3FD76004F3784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1357C24B2AD3FD75004F3784 = {
+			isa = PBXGroup;
+			children = (
+				1357C2562AD3FD75004F3784 /* SonorCLoudProject */,
+				1357C26D2AD3FD76004F3784 /* SonorCLoudProjectTests */,
+				1357C2772AD3FD76004F3784 /* SonorCLoudProjectUITests */,
+				1357C2552AD3FD75004F3784 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1357C2552AD3FD75004F3784 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1357C2542AD3FD75004F3784 /* SonorCLoudProject.app */,
+				1357C26A2AD3FD76004F3784 /* SonorCLoudProjectTests.xctest */,
+				1357C2742AD3FD76004F3784 /* SonorCLoudProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1357C2562AD3FD75004F3784 /* SonorCLoudProject */ = {
+			isa = PBXGroup;
+			children = (
+				1357C2572AD3FD75004F3784 /* AppDelegate.swift */,
+				1357C2592AD3FD75004F3784 /* SceneDelegate.swift */,
+				1357C25B2AD3FD75004F3784 /* ViewController.swift */,
+				1357C25D2AD3FD75004F3784 /* Main.storyboard */,
+				1357C2602AD3FD75004F3784 /* Assets.xcassets */,
+				1357C2622AD3FD75004F3784 /* LaunchScreen.storyboard */,
+				1357C2652AD3FD75004F3784 /* Info.plist */,
+			);
+			path = SonorCLoudProject;
+			sourceTree = "<group>";
+		};
+		1357C26D2AD3FD76004F3784 /* SonorCLoudProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				1357C26E2AD3FD76004F3784 /* SonorCLoudProjectTests.swift */,
+			);
+			path = SonorCLoudProjectTests;
+			sourceTree = "<group>";
+		};
+		1357C2772AD3FD76004F3784 /* SonorCLoudProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1357C2782AD3FD76004F3784 /* SonorCLoudProjectUITests.swift */,
+				1357C27A2AD3FD76004F3784 /* SonorCLoudProjectUITestsLaunchTests.swift */,
+			);
+			path = SonorCLoudProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1357C2532AD3FD75004F3784 /* SonorCLoudProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1357C27E2AD3FD76004F3784 /* Build configuration list for PBXNativeTarget "SonorCLoudProject" */;
+			buildPhases = (
+				1357C2502AD3FD75004F3784 /* Sources */,
+				1357C2512AD3FD75004F3784 /* Frameworks */,
+				1357C2522AD3FD75004F3784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SonorCLoudProject;
+			productName = SonorCLoudProject;
+			productReference = 1357C2542AD3FD75004F3784 /* SonorCLoudProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1357C2692AD3FD76004F3784 /* SonorCLoudProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1357C2812AD3FD76004F3784 /* Build configuration list for PBXNativeTarget "SonorCLoudProjectTests" */;
+			buildPhases = (
+				1357C2662AD3FD76004F3784 /* Sources */,
+				1357C2672AD3FD76004F3784 /* Frameworks */,
+				1357C2682AD3FD76004F3784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1357C26C2AD3FD76004F3784 /* PBXTargetDependency */,
+			);
+			name = SonorCLoudProjectTests;
+			productName = SonorCLoudProjectTests;
+			productReference = 1357C26A2AD3FD76004F3784 /* SonorCLoudProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1357C2732AD3FD76004F3784 /* SonorCLoudProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1357C2842AD3FD76004F3784 /* Build configuration list for PBXNativeTarget "SonorCLoudProjectUITests" */;
+			buildPhases = (
+				1357C2702AD3FD76004F3784 /* Sources */,
+				1357C2712AD3FD76004F3784 /* Frameworks */,
+				1357C2722AD3FD76004F3784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1357C2762AD3FD76004F3784 /* PBXTargetDependency */,
+			);
+			name = SonorCLoudProjectUITests;
+			productName = SonorCLoudProjectUITests;
+			productReference = 1357C2742AD3FD76004F3784 /* SonorCLoudProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1357C24C2AD3FD75004F3784 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1357C2532AD3FD75004F3784 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					1357C2692AD3FD76004F3784 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 1357C2532AD3FD75004F3784;
+					};
+					1357C2732AD3FD76004F3784 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 1357C2532AD3FD75004F3784;
+					};
+				};
+			};
+			buildConfigurationList = 1357C24F2AD3FD75004F3784 /* Build configuration list for PBXProject "SonorCLoudProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1357C24B2AD3FD75004F3784;
+			productRefGroup = 1357C2552AD3FD75004F3784 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1357C2532AD3FD75004F3784 /* SonorCLoudProject */,
+				1357C2692AD3FD76004F3784 /* SonorCLoudProjectTests */,
+				1357C2732AD3FD76004F3784 /* SonorCLoudProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1357C2522AD3FD75004F3784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1357C2642AD3FD75004F3784 /* LaunchScreen.storyboard in Resources */,
+				1357C2612AD3FD75004F3784 /* Assets.xcassets in Resources */,
+				1357C25F2AD3FD75004F3784 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1357C2682AD3FD76004F3784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1357C2722AD3FD76004F3784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1357C2502AD3FD75004F3784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1357C25C2AD3FD75004F3784 /* ViewController.swift in Sources */,
+				1357C2582AD3FD75004F3784 /* AppDelegate.swift in Sources */,
+				1357C25A2AD3FD75004F3784 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1357C2662AD3FD76004F3784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1357C26F2AD3FD76004F3784 /* SonorCLoudProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1357C2702AD3FD76004F3784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1357C27B2AD3FD76004F3784 /* SonorCLoudProjectUITestsLaunchTests.swift in Sources */,
+				1357C2792AD3FD76004F3784 /* SonorCLoudProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1357C26C2AD3FD76004F3784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1357C2532AD3FD75004F3784 /* SonorCLoudProject */;
+			targetProxy = 1357C26B2AD3FD76004F3784 /* PBXContainerItemProxy */;
+		};
+		1357C2762AD3FD76004F3784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1357C2532AD3FD75004F3784 /* SonorCLoudProject */;
+			targetProxy = 1357C2752AD3FD76004F3784 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1357C25D2AD3FD75004F3784 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1357C25E2AD3FD75004F3784 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1357C2622AD3FD75004F3784 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1357C2632AD3FD75004F3784 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1357C27C2AD3FD76004F3784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1357C27D2AD3FD76004F3784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1357C27F2AD3FD76004F3784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SonorCLoudProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiran.sonorcheck.SonorCLoudProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1357C2802AD3FD76004F3784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SonorCLoudProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiran.sonorcheck.SonorCLoudProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1357C2822AD3FD76004F3784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiran.sonorcheck.SonorCLoudProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SonorCLoudProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SonorCLoudProject";
+			};
+			name = Debug;
+		};
+		1357C2832AD3FD76004F3784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiran.sonorcheck.SonorCLoudProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SonorCLoudProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SonorCLoudProject";
+			};
+			name = Release;
+		};
+		1357C2852AD3FD76004F3784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiran.sonorcheck.SonorCLoudProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SonorCLoudProject;
+			};
+			name = Debug;
+		};
+		1357C2862AD3FD76004F3784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiran.sonorcheck.SonorCLoudProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SonorCLoudProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1357C24F2AD3FD75004F3784 /* Build configuration list for PBXProject "SonorCLoudProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1357C27C2AD3FD76004F3784 /* Debug */,
+				1357C27D2AD3FD76004F3784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1357C27E2AD3FD76004F3784 /* Build configuration list for PBXNativeTarget "SonorCLoudProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1357C27F2AD3FD76004F3784 /* Debug */,
+				1357C2802AD3FD76004F3784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1357C2812AD3FD76004F3784 /* Build configuration list for PBXNativeTarget "SonorCLoudProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1357C2822AD3FD76004F3784 /* Debug */,
+				1357C2832AD3FD76004F3784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1357C2842AD3FD76004F3784 /* Build configuration list for PBXNativeTarget "SonorCLoudProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1357C2852AD3FD76004F3784 /* Debug */,
+				1357C2862AD3FD76004F3784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1357C24C2AD3FD75004F3784 /* Project object */;
+}
