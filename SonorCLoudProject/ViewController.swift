@@ -16,6 +16,10 @@ class ViewController: UIViewController {
         
         print("hellocheck")
     }
+    
+    func check_codesmell (){
+        var Checkcodesmell: String = ""
+    }
 
 
 }
