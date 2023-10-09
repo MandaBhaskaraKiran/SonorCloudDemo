@@ -16,6 +16,7 @@
 		1357C26F2AD3FD76004F3784 /* SonorCLoudProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1357C26E2AD3FD76004F3784 /* SonorCLoudProjectTests.swift */; };
 		1357C2792AD3FD76004F3784 /* SonorCLoudProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1357C2782AD3FD76004F3784 /* SonorCLoudProjectUITests.swift */; };
 		1357C27B2AD3FD76004F3784 /* SonorCLoudProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1357C27A2AD3FD76004F3784 /* SonorCLoudProjectUITestsLaunchTests.swift */; };
+		13E157672AD41B5700BB9872 /* sonar-project.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13E157662AD41B5700BB9872 /* sonar-project.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1357C2742AD3FD76004F3784 /* SonorCLoudProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonorCLoudProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1357C2782AD3FD76004F3784 /* SonorCLoudProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonorCLoudProjectUITests.swift; sourceTree = "<group>"; };
 		1357C27A2AD3FD76004F3784 /* SonorCLoudProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonorCLoudProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		13E157662AD41B5700BB9872 /* sonar-project.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sonar-project.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		1357C24B2AD3FD75004F3784 = {
 			isa = PBXGroup;
 			children = (
+				13E157662AD41B5700BB9872 /* sonar-project.plist */,
 				1357C2562AD3FD75004F3784 /* SonorCLoudProject */,
 				1357C26D2AD3FD76004F3784 /* SonorCLoudProjectTests */,
 				1357C2772AD3FD76004F3784 /* SonorCLoudProjectUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13E157672AD41B5700BB9872 /* sonar-project.plist in Resources */,
 				1357C2642AD3FD75004F3784 /* LaunchScreen.storyboard in Resources */,
 				1357C2612AD3FD75004F3784 /* Assets.xcassets in Resources */,
 				1357C25F2AD3FD75004F3784 /* Main.storyboard in Resources */,
