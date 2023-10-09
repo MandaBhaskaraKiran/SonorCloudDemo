@@ -12,13 +12,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("hellocheck")
-        
-        print("hellocheck")
     }
     
-    func check_codesmell (){
+    func check_codesmell() -> Int{
         var Checkcodesmell: String = ""
+        return 4
     }
 
 
