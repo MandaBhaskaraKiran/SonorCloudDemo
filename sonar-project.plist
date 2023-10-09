@@ -7,6 +7,6 @@
 	<key>sonar.projectKey</key>
 	<string>MandaBhaskaraKiran_SonorCloudDemo</string>
 	<key>sonar.sources</key>
-	<string>macos-xcode</string>
+	<string>.</string>
 </dict>
 </plist>

@@ -1,25 +1,21 @@
-name: Build
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    types: [opened, synchronize, reopened]
+  # Trigger analysis when pushing in master or pull requests, and when creating
+  # a pull request.
+   workflow_dispatch:
+   
+name: Main Workflow
 jobs:
-  build:
-    name: Build
-    runs-on: macos-latest
-    env:
-      BUILD_WRAPPER_OUT_DIR: build_wrapper_output_directory # Directory where build-wrapper output will be placed
+  DemoSonarCloudSCan:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # Shallow clones should be disabled for a better relevancy of analysis
-      - name: Install sonar-scanner and build-wrapper
-        uses: SonarSource/sonarcloud-github-c-cpp@v1
-      - name: Run build-wrapper
-        run: |
-          build-wrapper-macosx-x86 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }} xcodebuild -project macos-xcode.xcodeproj -scheme macos-xcode
+            fetch-depth: 0
+      - name: SonarCloud Scan
+        uses: sonarsource/sonarcloud-github-action@master
+        env:
+            GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+            SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       - name: Run tests to generate coverage statistics
         run: |
           xcodebuild test -project macos-xcode.xcodeproj -scheme test1 -enableCodeCoverage YES -derivedDataPath build
@@ -27,12 +23,8 @@ jobs:
       - name: Collect coverage into one XML report
         run: |
           bash xccov-to-generic.sh build/Logs/Test/*.xcresult/ > generic-coverage.xml
-      - name: Run sonar-scanner
-        env:
-          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN}} # Put the name of your token here
-        run: |
-          sonar-scanner \
-            --define sonar.cfamily.build-wrapper-output="${{ env.BUILD_WRAPPER_OUT_DIR }}" \
-            --define sonar.coverageReportPaths=generic-coverage.xml
-            
+
+        with:
+          args: >
+              -Dsonar.organization=mandabhaskarakiranorganization
+              -Dsonar.projectKey=MandaBhaskaraKiran_SonorCloudDemo
