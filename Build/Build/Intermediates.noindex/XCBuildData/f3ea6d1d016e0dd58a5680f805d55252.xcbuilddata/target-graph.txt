@@ -1,6 +1,0 @@
-Target dependency graph (3 targets)
-Target 'SonorCLoudProjectUITests' in project 'SonorCLoudProject'
-➜ Explicit dependency on target 'SonorCLoudProject' in project 'SonorCLoudProject'
-Target 'SonorCLoudProjectTests' in project 'SonorCLoudProject'
-➜ Explicit dependency on target 'SonorCLoudProject' in project 'SonorCLoudProject'
-Target 'SonorCLoudProject' in project 'SonorCLoudProject' (no dependencies)

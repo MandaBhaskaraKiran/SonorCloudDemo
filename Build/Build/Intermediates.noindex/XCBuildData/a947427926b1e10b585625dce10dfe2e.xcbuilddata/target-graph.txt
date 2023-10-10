@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-Target 'SonorCLoudProject' in project 'SonorCLoudProject' (no dependencies)
