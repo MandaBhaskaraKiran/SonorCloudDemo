@@ -17,9 +17,6 @@ jobs:
           fetch-depth: 0 # Shallow clones should be disabled for a better relevancy of analysis
       - name: Install sonar-scanner and build-wrapper
         uses: SonarSource/sonarcloud-github-c-cpp@v1
-      - name: Run build-wrapper
-        run: |
-          build-wrapper-macosx-x86 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }} xcodebuild -project SonorCLoudProject.xcodeproj -scheme SonorCLoudProject
       - name: Run tests to generate coverage statistics
         run: |
           xcodebuild test -project SonorCLoudProject.xcodeproj -scheme SonorCLoudProject -enableCodeCoverage YES -derivedDataPath build
