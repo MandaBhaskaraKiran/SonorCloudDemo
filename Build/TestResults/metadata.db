@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<integer>1</integer>
+	<key>Store</key>
+	<dict>
+		<key>SonorCLoudProjectTests</key>
+		<dict>
+			<key>SonorCLoudProjectTests</key>
+			<dict>
+				<key>testCoverageCheck_codesmell</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.0010420083999633789</real>
+				</dict>
+			</dict>
+		</dict>
+		<key>SonorCLoudProjectUITests</key>
+		<dict>
+			<key>SonorCLoudProjectUITests</key>
+			<dict>
+				<key>testExample</key>
+				<dict>
+					<key>mrnet</key>
+					<real>2.1964610815048218</real>
+				</dict>
+				<key>testLaunchPerformance</key>
+				<dict>
+					<key>mrnet</key>
+					<real>15.533635020256042</real>
+				</dict>
+			</dict>
+			<key>SonorCLoudProjectUITestsLaunchTests</key>
+			<dict>
+				<key>testLaunch</key>
+				<dict>
+					<key>mrnet</key>
+					<real>3.1697319746017456</real>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

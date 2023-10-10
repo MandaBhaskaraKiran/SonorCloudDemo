@@ -1,0 +1,79 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "b1a9acd775524b6775c112088e93a7d88adcf3def8b7a44aa4fb64122359f7c0"
+    },
+    {
+      "guid" : "b1a9acd775524b6775c112088e93a7d82f3de113435537005024addf16702e8b"
+    },
+    {
+      "guid" : "b1a9acd775524b6775c112088e93a7d809c11f1cab2813cb8f63d752bb5c6a23"
+    }
+  ],
+  "containerPath" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/SonorCLoudProject.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator17.0",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/Build/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/Build/Build/Products",
+      "derivedDataPath" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/Build",
+      "indexDataStoreFolderPath" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/Build/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/Build/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/Build/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CODE_SIGN_IDENTITY" : "",
+          "CODE_SIGNING_REQUIRED" : "NO"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone15,4",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "17.0",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone15,4",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/Build/Build/ProfileData",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "144",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "B40F47F3-E4F7-492B-BDCA-5724F59F2FC5",
+          "TARGET_DEVICE_MODEL" : "iPhone15,4",
+          "TARGET_DEVICE_OS_VERSION" : "17.0",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "test",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

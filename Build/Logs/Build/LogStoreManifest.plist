@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>0A6D7F1F-8810-4CE6-A7B8-248401DE29C7</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0A6D7F1F-8810-4CE6-A7B8-248401DE29C7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SonorCLoudProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SonorCLoudProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project SonorCLoudProject with scheme SonorCLoudProject</string>
+			<key>timeStartedRecording</key>
+			<real>718645436.01022995</real>
+			<key>timeStoppedRecording</key>
+			<real>718645445.62769496</real>
+			<key>title</key>
+			<string>Building project SonorCLoudProject with scheme SonorCLoudProject</string>
+			<key>uniqueIdentifier</key>
+			<string>0A6D7F1F-8810-4CE6-A7B8-248401DE29C7</string>
+		</dict>
+		<key>810770B2-5AF3-4220-AE55-C8E7337EBE72</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>810770B2-5AF3-4220-AE55-C8E7337EBE72.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SonorCLoudProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SonorCLoudProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project SonorCLoudProject with scheme SonorCLoudProject</string>
+			<key>timeStartedRecording</key>
+			<real>718644648.52601898</real>
+			<key>timeStoppedRecording</key>
+			<real>718644652.42672706</real>
+			<key>title</key>
+			<string>Building project SonorCLoudProject with scheme SonorCLoudProject</string>
+			<key>uniqueIdentifier</key>
+			<string>810770B2-5AF3-4220-AE55-C8E7337EBE72</string>
+		</dict>
+		<key>9FD3E20C-913F-44FB-A0B7-F7D6056CDE10</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9FD3E20C-913F-44FB-A0B7-F7D6056CDE10.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SonorCLoudProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SonorCLoudProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning project SonorCLoudProject with scheme SonorCLoudProject</string>
+			<key>timeStartedRecording</key>
+			<real>718645435.50564802</real>
+			<key>timeStoppedRecording</key>
+			<real>718645435.89451802</real>
+			<key>title</key>
+			<string>Cleaning project SonorCLoudProject with scheme SonorCLoudProject</string>
+			<key>uniqueIdentifier</key>
+			<string>9FD3E20C-913F-44FB-A0B7-F7D6056CDE10</string>
+		</dict>
+		<key>A501135D-50B1-4C3B-AF23-11ABE38D56DF</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A501135D-50B1-4C3B-AF23-11ABE38D56DF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SonorCLoudProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SonorCLoudProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project SonorCLoudProject with scheme SonorCLoudProject</string>
+			<key>timeStartedRecording</key>
+			<real>718645445.63546205</real>
+			<key>timeStoppedRecording</key>
+			<real>718645451.58598804</real>
+			<key>title</key>
+			<string>Testing project SonorCLoudProject with scheme SonorCLoudProject</string>
+			<key>uniqueIdentifier</key>
+			<string>A501135D-50B1-4C3B-AF23-11ABE38D56DF</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/Build/Build/Intermediates.noindex/SonorCLoudProject.build/Debug-iphonesimulator/SonorCLoudProjectTests.build/Objects-normal/arm64/SonorCLoudProjectTests-master.dia",
+    "emit-module-dependencies" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/Build/Build/Intermediates.noindex/SonorCLoudProject.build/Debug-iphonesimulator/SonorCLoudProjectTests.build/Objects-normal/arm64/SonorCLoudProjectTests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/Build/Build/Intermediates.noindex/SonorCLoudProject.build/Debug-iphonesimulator/SonorCLoudProjectTests.build/Objects-normal/arm64/SonorCLoudProjectTests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/Build/Build/Intermediates.noindex/SonorCLoudProject.build/Debug-iphonesimulator/SonorCLoudProjectTests.build/Objects-normal/arm64/SonorCLoudProjectTests-master.swiftdeps"
+  },
+  "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/SonorCLoudProjectTests/SonorCLoudProjectTests.swift" : {
+    "const-values" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/Build/Build/Intermediates.noindex/SonorCLoudProject.build/Debug-iphonesimulator/SonorCLoudProjectTests.build/Objects-normal/arm64/SonorCLoudProjectTests.swiftconstvalues",
+    "dependencies" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/Build/Build/Intermediates.noindex/SonorCLoudProject.build/Debug-iphonesimulator/SonorCLoudProjectTests.build/Objects-normal/arm64/SonorCLoudProjectTests.d",
+    "diagnostics" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/Build/Build/Intermediates.noindex/SonorCLoudProject.build/Debug-iphonesimulator/SonorCLoudProjectTests.build/Objects-normal/arm64/SonorCLoudProjectTests.dia",
+    "index-unit-output-path" : "/SonorCLoudProject.build/Debug-iphonesimulator/SonorCLoudProjectTests.build/Objects-normal/arm64/SonorCLoudProjectTests.o",
+    "llvm-bc" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/Build/Build/Intermediates.noindex/SonorCLoudProject.build/Debug-iphonesimulator/SonorCLoudProjectTests.build/Objects-normal/arm64/SonorCLoudProjectTests.bc",
+    "object" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/Build/Build/Intermediates.noindex/SonorCLoudProject.build/Debug-iphonesimulator/SonorCLoudProjectTests.build/Objects-normal/arm64/SonorCLoudProjectTests.o",
+    "swift-dependencies" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/Build/Build/Intermediates.noindex/SonorCLoudProject.build/Debug-iphonesimulator/SonorCLoudProjectTests.build/Objects-normal/arm64/SonorCLoudProjectTests.swiftdeps",
+    "swiftmodule" : "/Users/manda.unvvbhaskarakiran/Desktop/SonorCLoudProject/Build/Build/Intermediates.noindex/SonorCLoudProject.build/Debug-iphonesimulator/SonorCLoudProjectTests.build/Objects-normal/arm64/SonorCLoudProjectTests~partial.swiftmodule"
+  }
+}
