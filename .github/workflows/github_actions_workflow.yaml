@@ -34,7 +34,3 @@ jobs:
           sonar-scanner \
             --define sonar.cfamily.build-wrapper-output="${{ env.BUILD_WRAPPER_OUT_DIR }}" \
             --define sonar.coverageReportPaths=generic-coverage.xml
-        with:
-          args: >
-              -Dsonar.organization=mandabhaskarakiranorganization
-              -Dsonar.projectKey=MandaBhaskaraKiran_SonorCloudDemo
