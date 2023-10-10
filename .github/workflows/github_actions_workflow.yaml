@@ -19,7 +19,7 @@ jobs:
         uses: SonarSource/sonarcloud-github-c-cpp@v1
       - name: Run tests to generate coverage statistics
         run: |
-          xcodebuild test -project SonorCLoudProject.xcodeproj -scheme SonorCLoudProject -destination 'platform=iOS Simulator,name=Any iOS Simulator Device' -enableCodeCoverage YES -derivedDataPath build
+          xcodebuild test -project SonorCLoudProject.xcodeproj -scheme SonorCLoudProject -enableCodeCoverage YES -derivedDataPath build
       - name: Collect coverage into one XML report
         run: |
           bash xccov-to-generic.sh build/Logs/Test/*.xcresult/ > generic-coverage.xml
