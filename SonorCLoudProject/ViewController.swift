@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    func check_codesmell() -> Int{
+    func checkCodesmell() -> Int{
         var Checkcodesmell: String = ""
         return 4
         
