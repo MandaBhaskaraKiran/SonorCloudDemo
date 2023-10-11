@@ -12,6 +12,6 @@ final class SonorCLoudProjectTests: XCTestCase {
 
     func testCoverageCheck_codesmell(){
         let vc = ViewController()
-        XCTAssertEqual(vc.check_codesmell(), 4)
+        XCTAssertEqual(vc.checkCodesmell(), 4)
     }
 }
