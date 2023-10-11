@@ -14,6 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
+        xcode-version: '15.0'
           fetch-depth: 0 # Shallow clones should be disabled for a better relevancy of analysis
       - name: Install sonar-scanner and build-wrapper
         uses: SonarSource/sonarcloud-github-c-cpp@v1
