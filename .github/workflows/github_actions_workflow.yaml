@@ -22,7 +22,7 @@ jobs:
           xcodebuild -project SonorCLoudProject.xcodeproj/ -scheme SonorCLoudProject -derivedDataPath Build/ -destination 'platform=iOS Simulator,OS=16.2,name=iPhone 12'  -enableCodeCoverage YES clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
       - name: Collect coverage into one XML report
         run: |
-          bash xccov-to-generic.sh build/Logs/Test/*.xcresult/ > generic-coverage.xml
+          bash xccov-to-generic.sh Build/Logs/Test/Run-SonorCLoudProject-2023.10.11_16-42-54-+0000.xcresult/ > generic-coverage.xml
       - name: Run sonar-scanner
         env:
           GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
