@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
     
     func checkCodesmell() -> Int{
-        var Checkcodesmell: String = ""
+        var Checkcodesmell: String = "hai"
         return 4
         
     }
